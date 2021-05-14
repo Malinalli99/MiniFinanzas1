@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todos"
+            android:icon="@drawable/todo"
+            android:title="Todos" />
+        <item
+            android:id="@+id/nav_ingresos"
+            android:icon="@drawable/ingreso"
+            android:title="Ingresos" />
+        <item
+            android:id="@+id/nav_gastos"
+            android:icon="@drawable/gasto"
+            android:title="Gastos" />
+        <item
+            android:id="@+id/nav_metas"
+            android:icon="@drawable/meta"
+            android:title="Metas" />
+    </group>
+
+</menu>

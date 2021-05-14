@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorAccent"
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:contentDescription="@string/nuevo"
+            app:srcCompat="@drawable/nuevo" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/Nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/nombre_del_registro"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/Descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/descripcion_del_registro"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/Cantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp"
+        android:ems="10"
+        android:hint="@string/cantidad_del_registro"
+        android:inputType="numberDecimal"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/Calendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_weight="0"
+            android:layout_marginLeft="20dp"
+            app:srcCompat="@drawable/cale" />
+
+        <TextView
+            android:id="@+id/Vcalendario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0"
+            android:text="Fecha"
+            android:textColor="@android:color/background_dark"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <CheckBox
+            android:id="@+id/Ingreso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/Vtarea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:textSize="15dp"
+            android:textColor="@android:color/background_dark"
+            android:text="Ingresos" />
+
+        <CheckBox
+            android:id="@+id/Gasto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/Vtrabajo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:textSize="15dp"
+            android:textColor="@android:color/background_dark"
+            android:text="Gastos" />
+
+
+        <CheckBox
+            android:id="@+id/Meta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="0"
+            android:backgroundTint="@color/colorPrimary"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/Vreuniones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0"
+            android:textSize="15dp"
+            android:textColor="@android:color/background_dark"
+            android:text="Metas" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
+
+        <Button
+            android:id="@+id/Cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="50dp"
+            android:text="Cancelar" />
+
+        <Button
+            android:id="@+id/Guardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="20dp"
+            android:text="Guardar" />
+    </LinearLayout>
+
+
+</LinearLayout>
