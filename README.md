@@ -32,17 +32,17 @@ La empresa cuenta con el proyecto para desarrollar una aplicación móvil nativa
 
 ## Tabla de contenidos en Wiki
 
-Consulta de requerimientos
+Consulta de requerimientos...........https://github.com/Malinalli99/MiniFinanzas1/wiki/Requerimientos
 
-Consulta de instalación
+Consulta de instalación..............https://github.com/Malinalli99/MiniFinanzas1/wiki/Instalaci%C3%B3n 
 
-Consulta de configuración
+Consulta de configuración............https://github.com/Malinalli99/MiniFinanzas1/wiki/Configuraci%C3%B3n
 
-Consulta de uso
+Consulta de uso......................https://github.com/Malinalli99/MiniFinanzas1/wiki/Uso
 
-Consulta de contribución
+Consulta de contribución.............https://github.com/Malinalli99/MiniFinanzas1/wiki/Contribuci%C3%B3n
 
-Roadmap
+Roadmap..............................https://github.com/Malinalli99/MiniFinanzas1/wiki/Roadmap
 
 
 
