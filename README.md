@@ -33,7 +33,16 @@ La empresa cuenta con el proyecto para desarrollar una aplicación móvil nativa
 ## Tabla de contenidos en Wiki
 
 Consulta de requerimientos
+
 Consulta de instalación
+
+Consulta de configuración
+
+Consulta de uso
+
+Consulta de contribución
+
+Roadmap
 
 
 
